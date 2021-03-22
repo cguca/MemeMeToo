@@ -41,7 +41,7 @@ class MemeTableViewController: UITableViewController {
         let meme = self.memes[(indexPath as NSIndexPath).row]
         
         // Set the name and image
-        let cellText = meme.topText! + meme.bottomText!
+        let cellText = meme.topText! + "..." + meme.bottomText!
         cell.textLabel?.text = cellText
         cell.imageView?.image = meme.memedImage
         
