@@ -24,7 +24,7 @@ class MemeCollectionViewController: UICollectionViewController {
     
     override func viewDidLoad() {
             super.viewDidLoad()
-            navigationItem.rightBarButtonItem = UIBarButtonItem(title: "+", style: .plain, target: self, action: #selector(createMeme))
+        navigationItem.rightBarButtonItem = UIBarButtonItem(image: .add, style: .plain, target: self, action: #selector(createMeme))
     }
     
     override func viewDidAppear(_ animated: Bool) {

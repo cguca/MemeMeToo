@@ -13,4 +13,8 @@ class MemeCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet weak var memeImageView: UIImageView!
     @IBOutlet weak var memeLabel: UILabel!
+    
+    func configure(with memeText: String) {
+        memeLabel.text = memeText
+    }
 }
