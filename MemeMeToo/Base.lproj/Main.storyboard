@@ -22,11 +22,12 @@
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7C0-Ek-3ta">
                                 <rect key="frame" x="20" y="56" width="374" height="44"/>
                                 <items>
-                                    <barButtonItem title="Share" image="square.and.arrow.up" catalog="system" width="210" id="Cwz-op-bCg">
+                                    <barButtonItem title="Share" image="square.and.arrow.up" catalog="system" id="Cwz-op-bCg">
                                         <connections>
                                             <action selector="shareMeme:" destination="BYZ-38-t0r" id="N7U-Zm-A5x"/>
                                         </connections>
                                     </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="8O7-jV-cge"/>
                                     <barButtonItem title="Cancel" id="9Du-Mb-1Q8">
                                         <connections>
                                             <action selector="cancelMeme:" destination="BYZ-38-t0r" id="2Kt-9r-cwp"/>
@@ -52,6 +53,7 @@
                                             <action selector="pickImageFromCamera:" destination="BYZ-38-t0r" id="mkT-b8-0ep"/>
                                         </connections>
                                     </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="Men-Im-Lmt"/>
                                     <barButtonItem title="Album" id="Snt-kJ-lFr">
                                         <connections>
                                             <action selector="pickImage:" destination="BYZ-38-t0r" id="JLA-fV-USG"/>
